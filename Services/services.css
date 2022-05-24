@@ -71,13 +71,15 @@ body{
 }
 
 .Group19{
-     margin-right: 58px; 
-    width: 100%;
+    margin-right: 28px; 
+    width: 180.76px;
     height: 52px;
     background: linear-gradient(90deg, #55CDFF 4.26%,  #2A3990 109.69%);
-    border-radius: 5px;   
+    border-radius: 5px;
+    
     color: white;
-    text-decoration: none;   
+    text-decoration: none;
+    
     font-family: Helvetica Medium;
     font-style: normal;
     font-weight: 500;
@@ -91,7 +93,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 100vh;
+    height: 110vh;
 }
 
 .serve{
@@ -109,6 +111,7 @@ body{
     text-align: center;
     color: #2A3990;
     background-color: #EAF7FB;
+    margin-top: 40px;
 }
 
 .why{
@@ -157,7 +160,7 @@ body{
     letter-spacing: 0.0370969px;
     text-align: center;
     color: #2A3990;
-    margin-top: 240px;
+    margin-top: 340px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -184,17 +187,22 @@ body{
 }
 
 .imgDiv{
-    width: 494px;
+    width: 404px;
     height: 377px;
     position: absolute;
     top: 50%;
-    left: -50%;
+    left: -40%;
     transform: translate(50%, -50%);
 }
 .imgDiv img{
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+.rec548{
+    width: 494px; 
+    height: 377px;
 }
 
 .cardtext{
@@ -363,7 +371,21 @@ color: #000000;
         flex: 100%;
     }
     .services, .technicians, .about{
+        overflow: hidden;
+        margin-right: 10px;
         border-bottom: 1px solid black;
+    }
+    .signin{
+        margin-right: 10px;
+    }
+    .Group19{
+        overflow: hidden;
+        width: 440px;
+        margin-left: 16px;
+    }
+
+    .our{
+        margin-top: 20px;
     }
 
     .rect{
@@ -401,6 +423,7 @@ color: #000000;
     .cardhead{
         margin-top: 65px;
     }
+    
     .signup{
         margin-top: 10px;
     }
